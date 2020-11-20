@@ -1,0 +1,122 @@
+
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+/* Градиент
+==========================*/
+
+body{
+	background: linear-gradient(to left bottom, #fff, #000);
+	height: 100vh;
+}
+
+/*background: linear-gradient(45deg, #58FA58, #F79F81);
+===========================================================*/
+
+/* Контейнер
+=============================*/
+
+
+.calculator{
+	width:300px;
+	height: 400px;
+	margin: 126px auto;
+	box-shadow: 10px 8px 10px black;
+	border-radius: 5px;
+}
+
+
+
+/* Шапка с INPUT
+=========================*/
+
+
+.header{
+	height: 160px;
+	padding: 30px 20px 25px 20px;
+	background-color: #000;
+	border-radius: 5px 5px 0 0;
+}
+
+
+
+.input{
+	width: 100%;
+	text-align: right;
+	outline: none;
+	border: none;
+	font-size: 18px;
+	background-color: #000;
+	color: #01DF01;
+}
+.input::placeholder{color: #01DF01;}
+
+
+
+
+.result{
+	width: 100%;
+	text-align: right;
+	outline: none;
+	border: none;
+	margin-top: 30px;
+	font-size: 50px;
+	background-color: #000;
+	color: #fff;
+}
+.result::placeholder{color: #fff;}
+
+
+
+/* Меню
+===================================*/
+
+
+.main{
+	display: table;
+	height: 240px;
+	background-color: #fff;
+	border-radius: 0 0 5px 5px;
+}
+
+
+/* Кнопки
+=========================*/
+
+
+.btn{
+	width: 60px;
+	height: 60px;
+	border: none;
+	outline: none;
+	font-size: 18px;
+	border-radius: 5px;
+	background-color: #fff;
+}
+
+.btn__big{
+	background-color: #01DF01;
+	border-radius: 5px 5px 0 0;
+}
+
+.btn__sym{
+	color:  #000;
+}
+
+
+.btn__func{
+	color: #FF8000;
+}
+
+.btn__point{
+	background-color: #01DF01;
+	border-radius: 5px;
+	border-radius: 0 5px;
+}
+
+.btn:hover{
+	filter: brightness(80%);
+}
