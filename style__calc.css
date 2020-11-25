@@ -8,10 +8,9 @@
 
 body{
 	background: #444;
+	height: 1vh;
 }
 
-/*background: linear-gradient(45deg, #58FA58, #F79F81);
-===========================================================*/
 
 /* Контейнер
 =============================*/
@@ -20,7 +19,7 @@ body{
 .calculator{
 	width:300px;
 	height: 400px;
-	margin: 126px auto;
+	margin: 100px auto 0 auto;
 	box-shadow: 10px 8px 10px black;
 	border-radius: 5px;
 }
@@ -47,9 +46,9 @@ body{
 	border: none;
 	font-size: 18px;
 	background-color: #000;
-	color: #01DF01;
+	color: #FF8000;
 }
-.input::placeholder{color: #01DF01;}
+.input::placeholder{color: #FF8000;}
 
 
 
